@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+:root {
+    /* CSS HEX */
+    --pear: #c2e812ff;
+    --light-green: #91f5adff;
+    --cadet-gray: #8b9eb7ff;
+    --royal-purple: #745296ff;
+    --violet-jtc: #632a50ff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    align-content: right;
+    height: 5em;
+    width: 100vw;
+}
+
+.hand {
+    align-self: right;
+    height: 5em;
+    width: 5em;
+}
+
+h1 {
+    align-self: center;
+    order: 1;
+    position: relative;
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;
+    z-index: 2;
+}
+
+p {
+    align-self: center;
+    order: 2;
+    position: relative;
+    font-size: 3em;
+}
+
+.button1 {
+    color: var(--violet-jtc);
+    margin-top: 2em;
+    order: 3;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    align-self: center;
+    font-size: 3em;
+}
+
+.circle {
+    border: 5px solid var(--pear);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: beige;
+    position: absolute;
+    height: 40em;
+    width: 40em;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.forest {
+    filter: sepia(40%) hue-rotate(31deg) saturate(55%);
+    margin-left: 5em;
+    height: 40em;
+    width: 90vw;
+}
