@@ -160,12 +160,38 @@
         top: 64%;
         left: 9em;
         background: none;
-        transform: rotate(-2deg);
+        transform: rotate(3deg);
+        transform: scaleX(-1);
+        transform: scaleY(-1);
+    }
+    .shop {
+        position: relative;
+        height: 50%;
+        width: 10%;
+        background-image: url(hills.jpg);
+        clip-path: circle(20.4% at 50% 98%);
+    }
+    /*.foreground {
+        top: 0;
+        position: absolute;
+        background: white;
+        height: 100vh;
+        width: 100vw;
+        z-index: 10000;
+    }*/
+    .arch_1 {
+        top: 0;
+        background: white;
+        height: 20em;
+        width: 20em;
+        clip-path: circle(60.4% at 50% 78%);
+        z-index: 10000;
     }
 }
 
 
 /*@media (min-width:320px) {
+    trt
     body {
         background: black;
         height: 100vh;
