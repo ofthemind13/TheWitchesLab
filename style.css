@@ -1,209 +1,227 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
- :root {
-    /* CSS HEX */
-    --darkblue: #27213C;
-    --blue: #38726c;
-    --red: #A33B20;
-    --cafe: #5A352A;
-    --gray: #A6A57A;
-    --plum: #160224;
-}
-
-@media (min-width:930px) {
-    * {
-        padding: 0;
-        margin: 0;
-    }
-    body {
-        background: black;
-        height: 100vh;
-        width: 100vw;
-    }
-    header {
-        background: black;
-        position: fixed;
-        width: 100%;
-        display: block;
-        justify-content: space-between;
-        align-items: center;
-        transition: 0.6s;
-        z-index: 10000;
-    }
-    header.sticky {
-        padding-bottom: .5rem;
-        position: fixed;
-        background-color: black;
-        height: 7em;
-        justify-content: space-between;
-    }
-    header.sticky li a {
-        color: white;
-        position: relative;
-        padding-right: 1em;
-        text-shadow: 3px white;
-    }
-    .hand {
-        filter: hue-rotate(150deg);
-        float: left;
-        margin-top: 5px;
-        margin-right: 3em;
-        height: 5em;
-        width: 5em;
-    }
-    .links {
-        margin-right: 5em;
-        float: right;
-        justify-content: center;
-        align-items: center;
-    }
-    li {
-        float: right;
-        display: block;
-        text-decoration: none;
-    }
-    li a {
-        left: 5em;
-        padding: 1em;
-        color: var(--gray);
-        float: right;
-        font-family: 'Playfair Display', serif;
-        display: block;
-        font-size: 2em;
-        text-decoration: none;
-        text-align: center;
-        text-shadow: 1px white;
-    }
-    h1 {
-        top: -10%;
-        margin-top: 1em;
-        color: var(--blue);
-        text-shadow: 1px 2px black;
-        align-self: center;
-        order: 1;
-        position: relative;
-        font-size: 3.5em;
-        font-family: 'Playfair Display', serif;
-        z-index: 2;
-    }
-    p {
-        top: -10%;
-        align-self: center;
-        order: 2;
-        position: relative;
-        font-size: 2.5em;
-    }
-    .button1 {
-        position: relative;
-        top: -5%;
-        color: var(--red);
-        order: 3;
-        text-decoration: none;
-        font-family: 'Dancing Script', cursive;
-        align-self: center;
-        font-size: 4em;
-        text-shadow: 1px 1px black;
-    }
-    .circle {
-        box-shadow: 1px 2px 10px 1px black;
-        top: 18%;
-        border: 5px solid var(--cafe);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: rgba(166, 165, 122, 0.90);
-        position: absolute;
-        height: 31em;
-        width: 31em;
-        border-radius: 50%;
-        z-index: 3;
-    }
-    .circle1 {
-        box-shadow: 1px 2px 10px 1px black;
-        top: 18%;
-        border: 5px solid var(--plum);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        background-color: rgba(166, 165, 122, 0.90);
-        position: absolute;
-        height: 31em;
-        width: 31em;
-        border-radius: 50%;
-        z-index: 3;
-    }
-    .forest {
-        filter: sepia(40%) hue-rotate(31deg) saturate(55%);
-        margin-left: 5%;
-        height: 40em;
-        width: 90%;
-    }
-    .runes {
-        height: 100vh;
-        width: 100vw;
-    }
-    .about_h1 {
-        top: -20%;
-        text-shadow: 1px 2px black;
-        letter-spacing: .05em;
-    }
-    .p2 {
-        width: 25em;
-        top: -15%;
-        font-family: 'Playfair Display', serif;
-        font-size: 1em;
-        text-align: center;
-        letter-spacing: .05em;
-    }
-    .line {
-        position: absolute;
-        top: 64%;
-        left: 9em;
-        background: none;
-        transform: rotate(3deg);
-        transform: scaleX(-1);
-        transform: scaleY(-1);
-    }
-    .shop {
-        position: relative;
-        height: 100%;
-        width: 100%;
-        background: url(incantation.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    /*.forground {
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+         :root {
+            /* CSS HEX */
+            --darkblue: #27213C;
+            --blue: #38726c;
+            --red: #A33B20;
+            --cafe: #5A352A;
+            --gray: #A6A57A;
+            --plum: #160224;
+        }
+        
+        @media (min-width:930px) {
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            body {
+                background: black;
+                height: 100vh;
+                width: 100vw;
+            }
+            header {
+                background: black;
+                position: fixed;
+                width: 100%;
+                display: block;
+                justify-content: space-between;
+                align-items: center;
+                transition: 0.6s;
+                z-index: 10000;
+            }
+            header.sticky {
+                padding-bottom: .5rem;
+                position: fixed;
+                background-color: black;
+                height: 7em;
+                justify-content: space-between;
+            }
+            header.sticky li a {
+                color: white;
+                position: relative;
+                padding-right: 1em;
+                text-shadow: 3px white;
+            }
+            .hand {
+                filter: hue-rotate(150deg);
+                float: left;
+                margin-top: 5px;
+                margin-right: 3em;
+                height: 5em;
+                width: 5em;
+            }
+            .links {
+                margin-right: 5em;
+                float: right;
+                justify-content: center;
+                align-items: center;
+            }
+            li {
+                float: right;
+                display: block;
+                text-decoration: none;
+            }
+            li a {
+                left: 5em;
+                padding: 1em;
+                color: var(--gray);
+                float: right;
+                font-family: 'Playfair Display', serif;
+                display: block;
+                font-size: 2em;
+                text-decoration: none;
+                text-align: center;
+                text-shadow: 1px white;
+            }
+            h1 {
+                top: -10%;
+                margin-top: 1em;
+                color: var(--blue);
+                text-shadow: 1px 2px black;
+                align-self: center;
+                order: 1;
+                position: relative;
+                font-size: 3.5em;
+                font-family: 'Playfair Display', serif;
+                z-index: 2;
+            }
+            p {
+                top: -10%;
+                align-self: center;
+                order: 2;
+                position: relative;
+                font-size: 2.5em;
+            }
+            .button1 {
+                position: relative;
+                top: -5%;
+                color: var(--red);
+                order: 3;
+                text-decoration: none;
+                font-family: 'Dancing Script', cursive;
+                align-self: center;
+                font-size: 4em;
+                text-shadow: 1px 1px black;
+            }
+            .circle {
+                box-shadow: 1px 2px 10px 1px black;
+                top: 18%;
+                border: 5px solid var(--cafe);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: rgba(166, 165, 122, 0.90);
+                position: absolute;
+                height: 31em;
+                width: 31em;
+                border-radius: 50%;
+                z-index: 3;
+            }
+            .circle1 {
+                box-shadow: 1px 2px 10px 1px black;
+                top: 18%;
+                border: 5px solid var(--plum);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                background-color: rgba(166, 165, 122, 0.90);
+                position: absolute;
+                height: 31em;
+                width: 31em;
+                border-radius: 50%;
+                z-index: 3;
+            }
+            .forest {
+                filter: sepia(40%) hue-rotate(31deg) saturate(55%);
+                margin-left: 5%;
+                height: 40em;
+                width: 90%;
+            }
+            .runes {
+                height: 100vh;
+                width: 100vw;
+            }
+            .about_h1 {
+                top: -20%;
+                text-shadow: 1px 2px black;
+                letter-spacing: .05em;
+            }
+            .p2 {
+                width: 25em;
+                top: -15%;
+                font-family: 'Playfair Display', serif;
+                font-size: 1em;
+                text-align: center;
+                letter-spacing: .05em;
+            }
+            .line {
+                position: absolute;
+                top: 64%;
+                left: 9em;
+                background: none;
+                transform: rotate(3deg);
+                transform: scaleX(-1);
+                transform: scaleY(-1);
+            }
+            /* Shop CSS*/
+            .shop_bd {
+                background-color: white;
+            }
+            .shop {
+                position: absolute;
+                height: 100vh;
+                width: 100vw;
+                background: url(incantation.jpg);
+                background-size: contain;
+                background-repeat: no-repeat;
+            }
+            /*.forground {
         background: url(incantation.jpg);
     }
     .incantation {
 
         height: 75vh;
         width: 50vh;
-    }
-    .foreground {
-        top: 0;
-        position: absolute;
-        background: white;
-        height: 100vh;
-        width: 100vw;
-        z-index: 10000;
     }*/
-    .arch_1 {
-        top: 0;
-        background: white;
-        height: 50em;
-        width: 50em;
-        /*clip-path: circle(60.4% at 50% 78%);*/
-        z-index: 10000;
-        background-size: fill;
-    }
-    .arch_1 img {
-        height: 10em;
-        width: 10em;
-    }
-}
-
-
-/*@media (min-width:320px) {
+            .arch_1 {
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                align-content: stretch;
+                justify-content: center;
+                left: 50em;
+                top: 25%;
+                border-radius: 20% 20% 0% 0%;
+                background: black;
+                height: 30em;
+                width: 30em;
+                /*clip-path: circle(60.4% at 50% 78%);*/
+                z-index: 10000;
+                background-size: fill;
+                color: white;
+                border: 5px solid var(--cafe);
+                box-shadow: 3px 1px 10px 1px black;
+            }
+            .arch_1 h2 {
+                left: 2em;
+                top: 2em;
+                position: relative;
+                justify-self: center;
+                color: var(--red);
+            }
+            .arch_1 img {
+                top: 14em;
+                margin-top: 1em;
+                position: relative;
+                height: 15em;
+                width: 20em;
+            }
+            .arch_1 p {
+                position: relative;
+                font-size: 1em;
+            }
+        }
+        /*@media (min-width:320px) {
     
 }*/
