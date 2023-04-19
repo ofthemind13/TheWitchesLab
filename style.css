@@ -168,8 +168,14 @@
         position: relative;
         height: 50%;
         width: 10%;
-        background-image: url(hills.jpg);
-        clip-path: circle(20.4% at 50% 98%);
+        background: url(incantation.jpg);
+    }
+    .forground {
+        background: url(incantation.jpg);
+    }
+    .incantation {
+        height: 75vh;
+        width: 50vh;
     }
     /*.foreground {
         top: 0;
