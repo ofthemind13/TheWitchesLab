@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-:root {
+ :root {
     /* CSS HEX */
-    /*--pear: #c2e812ff;
-    --light-green: #91f5adff;
-    --cadet-gray: #8b9eb7ff;
-    --royal-purple: #745296ff;
-    --violet-jtc: #632a50ff;*/
-    /* New pallet */
     --darkblue: #27213C;
     --blue: #38726c;
     --red: #A33B20;
@@ -47,8 +41,10 @@
         color: white;
         position: relative;
         padding-right: 1em;
+        text-shadow: 3px white;
     }
     .hand {
+        filter: hue-rotate(150deg);
         float: left;
         margin-top: 5px;
         margin-right: 3em;
@@ -69,7 +65,7 @@
     li a {
         left: 5em;
         padding: 1em;
-        color: var(--blue);
+        color: var(--gray);
         float: right;
         font-family: 'Playfair Display', serif;
         display: block;
@@ -79,8 +75,10 @@
         text-shadow: 1px white;
     }
     h1 {
-        margin-top: 2em;
+        top: -10%;
+        margin-top: 1em;
         color: var(--blue);
+        text-shadow: 1px 2px black;
         align-self: center;
         order: 1;
         position: relative;
@@ -89,14 +87,16 @@
         z-index: 2;
     }
     p {
+        top: -10%;
         align-self: center;
         order: 2;
         position: relative;
         font-size: 2.5em;
     }
     .button1 {
+        position: relative;
+        top: -5%;
         color: var(--red);
-        margin-top: .5em;
         order: 3;
         text-decoration: none;
         font-family: 'Dancing Script', cursive;
@@ -105,12 +105,13 @@
         text-shadow: 1px 1px black;
     }
     .circle {
+        box-shadow: 1px 2px 10px 1px black;
         top: 18%;
         border: 5px solid var(--cafe);
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: var(--gray);
+        background-color: rgba(166, 165, 122, 0.90);
         position: absolute;
         height: 31em;
         width: 31em;
@@ -124,13 +125,12 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background-color: var(--gray);
+        background-color: rgba(166, 165, 122, 0.90);
         position: absolute;
         height: 31em;
         width: 31em;
         border-radius: 50%;
         z-index: 3;
-        opacity: 75%;
     }
     .forest {
         filter: sepia(40%) hue-rotate(31deg) saturate(55%);
@@ -143,15 +143,24 @@
         width: 100vw;
     }
     .about_h1 {
-        top: -35%;
+        top: -20%;
+        text-shadow: 1px 2px black;
+        letter-spacing: .05em;
     }
     .p2 {
         width: 25em;
-        top: -20%;
+        top: -15%;
         font-family: 'Playfair Display', serif;
         font-size: 1em;
         text-align: center;
-        z-index: 10000;
+        letter-spacing: .05em;
+    }
+    .line {
+        position: absolute;
+        top: 64%;
+        left: 9em;
+        background: none;
+        transform: rotate(-2deg);
     }
 }
 
