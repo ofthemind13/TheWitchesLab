@@ -187,15 +187,20 @@
         height: 100vh;
         width: 100vw;
         z-index: 10000;
-    }
+    }*/
     .arch_1 {
         top: 0;
         background: white;
-        height: 20em;
-        width: 20em;
-        clip-path: circle(60.4% at 50% 78%);
+        height: 50em;
+        width: 50em;
+        /*clip-path: circle(60.4% at 50% 78%);*/
         z-index: 10000;
-    }*/
+        background-size: fill;
+    }
+    .arch_1 img {
+        height: 10em;
+        width: 10em;
+    }
 }
 
 
