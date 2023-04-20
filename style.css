@@ -166,14 +166,15 @@
             }
             /* Shop CSS*/
             .shop_bd {
-                background-color: white;
+              padding: 0;
+              margin: 0;
             }
             .shop {
                 position: absolute;
-                height: 100vh;
-                width: 100vw;
+                height: 200%;
+                width: 100%;
                 background: url(incantation.jpg);
-                background-size: contain;
+                background-size: cover;
                 background-repeat: no-repeat;
             }
             /*.forground {
@@ -187,13 +188,13 @@
             .arch_1 {
                 display: flex;
                 flex-direction: row;
-                position: relative;
-                align-content: space-around;
+                position: absolute;
+                align-content: center;
                 justify-content: center;
-                left: 50em;
+                left: 10em;
                 top: 25%;
                 border-radius: 20% 20% 0% 0%;
-                background: black;
+                background: var(--gray);
                 height: 30em;
                 width: 30em;
                 /*clip-path: circle(60.4% at 50% 78%);*/
@@ -204,23 +205,27 @@
                 box-shadow: 3px 1px 10px 1px black;
             }
             .arch_1 h2 {
+                font-family: 'Playfair Display', serif;
                 left: 2em;
                 top: 2em;
                 position: relative;
                 justify-self: center;
-                color: var(--red);
+                color: var(--darkblue);
             }
             .arch_1 img {
                 right: 4em;
                 top: 14em;
                 margin-top: 1em;
                 position: relative;
-                height: 15em;
-                width: 20em;
+                height: 7.5em;
+                width: 10em;
             }
             .arch_p {
+                font-family: 'Playfair Display', serif;
                 position: relative;
                 font-size: 1em;
+                height: 2em;
+                width: 10em;
             }
         }
         /*@media (min-width:320px) {
