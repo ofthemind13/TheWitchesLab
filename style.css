@@ -1,4 +1,4 @@
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
          :root {
             /* CSS HEX */
@@ -164,6 +164,7 @@
                 transform: scaleX(-1);
                 transform: scaleY(-1);
             }
+          }
             /* Shop CSS*/
            /* Basic Styling */
 
@@ -176,6 +177,7 @@
   }
    
   .container {
+    top: 15em;
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
@@ -188,6 +190,7 @@
   }
    
   .right-column {
+    top: 15em;
     width: 35%;
     margin-top: 60px;
   }
@@ -195,8 +198,8 @@
 .left-column img {
     width: 100%;
     position: absolute;
-    left: 0;
-    top: 0;
+    right: 5em;
+    top: 10em;
     opacity: 0;
     transition: all 0.3s ease;
   }
@@ -371,7 +374,7 @@
       top: -85px;
     }
   }
-        }
+        
         /*@media (min-width:320px) {
     
 }*/
