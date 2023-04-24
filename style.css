@@ -8,6 +8,7 @@
             --cafe: #5A352A;
             --gray: #A6A57A;
             --plum: #160224;
+            --flower: #862b90;
         }
         
         @media (min-width:930px) {
@@ -178,6 +179,7 @@
   .circle2 {
     box-shadow: 1px 2px 10px 1px black;
     top: 18%;
+    left: 2em;
     border: 5px solid var(--cafe);
     display: flex;
     flex-direction: column;
@@ -208,10 +210,13 @@
     
 }
 .con_form {
-    background: black;
+    position: relative;
+    background: var(--flower);
+    opacity: 75%;
     height: 30em;
     top: 3em;
- left: 1em;
+    left: 25em;
+    border: 3px solid var(--darkblue);
 }
 .name, .email, .tel {
     top: 3em;
@@ -224,13 +229,33 @@
     font-size: 1em;
 }
 #facebook {
+    margin-left: 1ems;
     position: relative;
     font-size: 3em;
     top: 3em;
     right: 10rem;
-    color: var(--cafe);
+    color: white;
     z-index: 1;
-    
+}
+
+#instagram {
+    position: relative;
+    font-size: 3em;
+    top: 3em;
+    right: 10rem;
+    color: white;
+    z-index: 1;
+}
+.button3 {
+    padding: 3px;
+    margin-right: 3em;
+    position: relative;
+    top: 7em;
+    font-size: 2em;
+    background: var(--gray);
+    border: 2px solid var(--darkblue);
+    font-family: 'Roboto', sans-serif;
+  }
 }
   }
 
