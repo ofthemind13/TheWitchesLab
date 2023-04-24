@@ -183,8 +183,8 @@
     flex-direction: column;
     background-color: rgba(166, 165, 122, 0.90);
     position: absolute;
-    height: 31em;
-    width: 31em;
+    height: 20em;
+    width: 20em;
     border-radius: 50%;
     z-index: 3;
 }
@@ -196,8 +196,8 @@
  position: absolute;   
     background: url(purple-3102305_1920.jpg);
     top: 5em;
-    height: 30em;
-    width: 30em;
+    height: 50em;
+    width: 90em;
     background-size: cover;
     right: 5em;
     display: flex;
@@ -205,9 +205,11 @@
     flex-wrap: nowrap;
     align-items: center;
     justify-items: center;
-    opacity: 75%;
+    
 }
 .con_form {
+    background: black;
+    height: 30em;
     top: 3em;
  left: 1em;
 }
@@ -220,7 +222,6 @@
     order: 5;
     position: relative;
     font-size: 1em;
-    background: black;
 }
 #facebook {
     position: relative;
