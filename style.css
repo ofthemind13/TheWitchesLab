@@ -175,8 +175,66 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
   }
+  .circle2 {
+    box-shadow: 1px 2px 10px 1px black;
+    top: 18%;
+    border: 5px solid var(--cafe);
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(166, 165, 122, 0.90);
+    position: absolute;
+    height: 31em;
+    width: 31em;
+    border-radius: 50%;
+    z-index: 3;
 }
-        
-        /*@media (min-width:320px) {
+
+.con_1 {
+    top: .5em;
+}
+.con_box {
+ position: absolute;   
+    background: url(purple-3102305_1920.jpg);
+    top: 5em;
+    height: 30em;
+    width: 30em;
+    background-size: cover;
+    right: 5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-items: center;
+    opacity: 75%;
+}
+.con_form {
+    top: 3em;
+ left: 1em;
+}
+.name, .email, .tel {
+    top: 3em;
+    height: 2em;
+    width: 20em;
+    margin-top: 2em;
+    margin-left: 1rem;
+    order: 5;
+    position: relative;
+    font-size: 1em;
+    background: black;
+}
+#facebook {
+    position: relative;
+    font-size: 3em;
+    top: 3em;
+    right: 10rem;
+    color: var(--cafe);
+    z-index: 1;
     
-}*/
+}
+  }
+
+        
+        @media screen and (min-width:320px) {
+
+    
+}
