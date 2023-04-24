@@ -229,7 +229,7 @@
     font-size: 1em;
 }
 #facebook {
-    margin-left: 1ems;
+    padding-right: 15px;
     position: relative;
     font-size: 3em;
     top: 3em;
@@ -239,6 +239,14 @@
 }
 
 #instagram {
+    position: relative;
+    font-size: 3em;
+    top: 3em;
+    right: 10rem;
+    color: white;
+    z-index: 1;
+}
+#twitter {
     position: relative;
     font-size: 3em;
     top: 3em;
