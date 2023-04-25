@@ -165,10 +165,6 @@
                 transform: scaleX(-1);
                 transform: scaleY(-1);
             }
-          
-            /* Shop CSS*/
-          
-
 .shop_bd {
     background: var(--gray);
     height: 100%;
@@ -214,6 +210,7 @@
     background: var(--flower);
     opacity: 75%;
     height: 30em;
+    width: 35em;
     top: 3em;
     left: 25em;
     border: 3px solid var(--darkblue);
@@ -228,33 +225,46 @@
     position: relative;
     font-size: 1em;
 }
+.rt {
+    display: inline-block;
+    float: left;
+    width: 10em;
+}
+.contact-list {
+    display: inline-block;
+}
+
 #facebook {
+    align-self: flex-start;
     padding-right: 15px;
     position: relative;
     font-size: 3em;
     top: 3em;
-    right: 10rem;
+    right: 15rem;
     color: white;
     z-index: 1;
 }
 
 #instagram {
+    padding-right: 15px;
     position: relative;
     font-size: 3em;
     top: 3em;
-    right: 10rem;
+    right: 15rem;
     color: white;
     z-index: 1;
 }
 #twitter {
+    
     position: relative;
     font-size: 3em;
     top: 3em;
-    right: 10rem;
+    right: 15rem;
     color: white;
     z-index: 1;
 }
 .button3 {
+    right: 6em;
     padding: 3px;
     margin-right: 3em;
     position: relative;
@@ -265,7 +275,7 @@
     font-family: 'Roboto', sans-serif;
   }
 }
-  }
+  
 
         
         @media screen and (min-width:320px) {
