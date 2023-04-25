@@ -8,7 +8,7 @@
             --cafe: #5A352A;
             --gray: #A6A57A;
             --plum: #160224;
-            --flower: #862b90;
+            --flower: rgb(134, 43, 144);
         }
         
         @media (min-width:930px) {
@@ -186,97 +186,63 @@
     border-radius: 50%;
     z-index: 3;
 }
+.con_bg {
+    height: 100%;
+    width: 100%;
+    background: url(purple-3102305_1920.jpg);
+}
 
 .con_1 {
     top: .5em;
 }
-.con_box {
- position: absolute;   
-    background: url(purple-3102305_1920.jpg);
-    top: 5em;
-    height: 50em;
-    width: 90em;
-    background-size: cover;
-    right: 5em;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-items: center;
-    
-}
 .con_form {
     position: relative;
-    background: var(--flower);
-    opacity: 75%;
-    height: 30em;
-    width: 35em;
-    top: 3em;
-    left: 25em;
-    border: 3px solid var(--darkblue);
-}
-.name, .email, .tel {
-    top: 3em;
-    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top: 12em;
+    left: 70em;
+    background: rgba(134, 43, 144, .65);
+    height: 25em;
     width: 20em;
-    margin-top: 2em;
-    margin-left: 1rem;
-    order: 5;
-    position: relative;
+    border-radius: 5%;
+}
+.con_header {
+    align-self: center;
+    margin-bottom: 2em;
+    color: var(--blue);
+}
+.form_info {
+
+    margin: 2em 2em 2em 2em;
+    height: 2em;
+
+}
+input {
+    color: white;
+    margin-bottom: 5em;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+.name {
+    margin-bottom: 2em;
+}
+.email {
+    margin-bottom: 2em;
+}
+.text {
+    margin-bottom: 2em;
+}
+h6 {
     font-size: 1em;
-}
-.rt {
-    display: inline-block;
-    float: left;
-    width: 10em;
-}
-.contact-list {
-    display: inline-block;
-}
-
-#facebook {
-    align-self: flex-start;
-    padding-right: 15px;
-    position: relative;
-    font-size: 3em;
-    top: 3em;
-    right: 15rem;
+    align-self: center;
+    justify-self: center;
     color: white;
-    z-index: 1;
-}
 
-#instagram {
-    padding-right: 15px;
-    position: relative;
-    font-size: 3em;
-    top: 3em;
-    right: 15rem;
-    color: white;
-    z-index: 1;
 }
-#twitter {
-    
-    position: relative;
-    font-size: 3em;
-    top: 3em;
-    right: 15rem;
-    color: white;
-    z-index: 1;
-}
-.button3 {
-    right: 6em;
-    padding: 3px;
-    margin-right: 3em;
-    position: relative;
-    top: 7em;
-    font-size: 2em;
-    background: var(--gray);
-    border: 2px solid var(--darkblue);
-    font-family: 'Roboto', sans-serif;
-  }
-}
-  
-
+        }
         
         @media screen and (min-width:320px) {
 
