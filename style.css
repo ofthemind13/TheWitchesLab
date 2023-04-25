@@ -165,13 +165,7 @@
                 transform: scaleX(-1);
                 transform: scaleY(-1);
             }
-.shop_bd {
-    background: var(--gray);
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-  }
+
   .circle2 {
     box-shadow: 1px 2px 10px 1px black;
     top: 18%;
@@ -193,10 +187,11 @@
 }
 
 .con_1 {
+    position: relative;
     top: .5em;
 }
 .con_form {
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -208,14 +203,17 @@
     border-radius: 5%;
 }
 .con_header {
-    align-self: center;
-    margin-bottom: 2em;
+    position: relatives;
+    margin-bottom: 1em;
+    margin-left: 1.2em;
     color: var(--blue);
 }
 .form_info {
-
-    margin: 2em 2em 2em 2em;
-    height: 2em;
+    position: relative;
+    margin-top: 1em;
+    margin-left: 3em;
+    height: 100%;
+    width: 100%;
 
 }
 input {
@@ -241,6 +239,51 @@ h6 {
     justify-self: center;
     color: white;
 
+}
+.icon_bubble {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 8em;
+    top: 35em;
+    height: 8em;
+    width: 8em;
+    background: rgba(166, 165, 122, 0.90);
+    z-index: 2;
+    border-radius: 50%;
+    border: 3px solid var(--cafe);
+}
+.icons {
+    color: var(--red);
+    position: relative;
+}
+.line2 {
+
+    color: var(--red);
+    position: absolute;
+    top: 60%;
+    left: 9em;
+    background: none;
+    transform: rotate(3deg);
+    transform: scaleX(-1);
+    transform: scaleY(-1);
+
+}
+.button2 {
+                position: relative;
+                top: -5%;
+                color: var(--red);
+                order: 3;
+                text-decoration: none;
+                font-family: 'Dancing Script', cursive;
+                align-self: center;
+                font-size: 4em;
+                text-shadow: 1px 1px black;
+}
+.shop_prompt {
+    margin-top: 5em;
+    font-size: 1em;
 }
         }
         
