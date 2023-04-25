@@ -198,7 +198,7 @@
     top: 12em;
     left: 70em;
     background: rgba(134, 43, 144, .65);
-    height: 25em;
+    height: 30em;
     width: 20em;
     border-radius: 5%;
 }
@@ -210,11 +210,14 @@
 }
 .form_info {
     position: relative;
-    margin-top: 1em;
+    margin-top: 2em;
     margin-left: 3em;
     height: 100%;
     width: 100%;
 
+}
+.inputs {
+    margin-top: 1em;
 }
 input {
     color: white;
@@ -225,6 +228,7 @@ input {
     border-bottom: 2px solid white;
 }
 .name {
+
     margin-bottom: 2em;
 }
 .email {
@@ -233,7 +237,13 @@ input {
 .text {
     margin-bottom: 2em;
 }
+.con_data {
+    margin-top: 3em;
+}
+
 h6 {
+    top: 6em;
+    margin-top: 3em;
     font-size: 1em;
     align-self: center;
     justify-self: center;
@@ -280,6 +290,16 @@ h6 {
                 align-self: center;
                 font-size: 4em;
                 text-shadow: 1px 1px black;
+}
+.button3 {
+    position: relative;
+    top: 2em;
+    left: -1em;
+    background: transparent;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    color: var(--gray);
+    font-size: 2em;
 }
 .shop_bg {
     background: var(--gray);
