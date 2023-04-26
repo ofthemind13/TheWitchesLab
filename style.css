@@ -171,56 +171,60 @@
                 text-align: center;
                 letter-spacing: .05em;
             }
-            .line {
+            .line2 {
                 position: absolute;
                 top: 64%;
-                left: 9em;
+                left: 4em;
                 background: none;
                 transform: rotate(3deg);
                 transform: scaleX(-1);
                 transform: scaleY(-1);
             }
         
-        .circle2 {
+        .circle_con {
         box-shadow: 1px 2px 10px 1px black;
-        top: 25%;
+        top: 4em;
         left: 1em;
         border: 5px solid var(--cafe);
         display: flex;
         flex-direction: column;
         background-color: rgba(166, 165, 122, 0.90);
         position: absolute;
-        height: 10em;
-        width: 10em;
+        height: 15em;
+        width: 15em;
         border-radius: 50%;
         z-index: 3;
         }
-       /* .con_bg { 
-            top: 50%s;
+       .con_bg { 
+
             background: var(--blue);
             position: absolute;
-            background-size: contain;
+            background-size: cover;
             background-repeat: no-repeat;
             background-image: url(purple-3102305_1920.jpg);
-            height: 100vh;
-            width: 100vw;
+            height: 100%;
+            width: 100%;
 
             }
             
             .con_1 {
+            
             position: relative;
-            top: .5em;
-            font-size: 1em;
-
+            top: 1.5em;
+            font-size: 1.5em;
+            }
+            .p_3 {
+            position: relative;    
+            top: 3em;
             }
             .con_form {
             position: absolute;
             display: flex;
             justify-content: center;
             align-content: center;
-            top: 12em;
-            left: 70em;
-            background: rgba(134, 43, 144, .65);
+            top: 25em;
+            left: 2.9em;
+            background: rgba(134, 43, 144, .80);
             height: 30em;
             width: 20em;
             border-radius: 5%;
@@ -229,7 +233,7 @@
             position: relatives;
             margin-bottom: 1em;
             margin-left: 1.2em;
-            color: var(--blue);
+            color: white;
             font-size: 2em;
             }
             .form_info {
@@ -238,7 +242,7 @@
             margin-left: 3em;
             height: 100%;
             width: 100%;
-            
+            font-size: 1em;
             }
             .inputs {
             margin-top: 1em;
@@ -268,6 +272,7 @@
             h6 {
             top: 6em;
             margin-top: 3em;
+            margin-bottom: 1em;
             font-size: 1em;
             align-self: center;
             justify-self: center;
@@ -280,11 +285,11 @@
             align-items: center;
             position: absolute;
             right: 8em;
-            top: 35em;
+            top: 15em;
             height: 8em;
             width: 8em;
             background: rgba(166, 165, 122, 0.90);
-            z-index: 2;
+            z-index: 3;
             border-radius: 50%;
             border: 3px solid var(--cafe);
             }
@@ -292,27 +297,21 @@
             color: var(--red);
             position: relative;
             }
+            i {
+                margin-right: .3em;
+            }
             .line2 {
-            
-            color: var(--red);
-            position: absolute;
-            top: 60%;
-            left: 9em;
-            background: none;
-            transform: rotate(3deg);
-            transform: scaleX(-1);
-            transform: scaleY(-1);
-            
+                width: 6em;
             }
             .button2 {
                     position: relative;
-                    top: -5%;
+                    top: 1em;
                     color: var(--red);
                     order: 3;
                     text-decoration: none;
                     font-family: 'Dancing Script', cursive;
                     align-self: center;
-                    font-size: 4em;
+                    font-size: 2em;
                     text-shadow: 1px 1px black;
             }
             .button3 {
@@ -322,9 +321,9 @@
             background: transparent;
             border: none;
             font-family: 'Dancing Script', cursive;
-            color: var(--gray);
+            color: var(--plum);
             font-size: 2em;
-            }*/
+            }
 }
 
 @media screen and (min-width:930px) {
@@ -332,11 +331,7 @@
         padding: 0;
         margin: 0;
     }
-    body {
-        background: black;
-        height: 100vh;
-        width: 100vw;
-    }
+
 
     header {
         background: black;
@@ -366,8 +361,8 @@
         float: left;
         margin-top: 5px;
         margin-right: 3em;
-        height: 5em;
-        width: 5em;
+        height: 8em;
+        width: 8em;
     }
     .links {
         margin-right: 5em;
@@ -387,7 +382,7 @@
         float: right;
         font-family: 'Playfair Display', serif;
         display: block;
-        font-size: 2em;
+        font-size: 3em;
         text-decoration: none;
         text-align: center;
         text-shadow: 1px white;
@@ -453,7 +448,7 @@
     .forest {
         filter: sepia(40%) hue-rotate(31deg) saturate(55%);
         margin-left: 5%;
-        height: 40em;
+        height: 65em;
         width: 90%;
     }
     .tarot {
@@ -475,12 +470,13 @@
     }
     .line {
         position: absolute;
-        top: 64%;
+        top: 20em;
         left: 9em;
         background: none;
         transform: rotate(3deg);
         transform: scaleX(-1);
         transform: scaleY(-1);
+        width: 12em;
     }
 
 .circle2 {
@@ -497,33 +493,58 @@ width: 20em;
 border-radius: 50%;
 z-index: 3;
 }
+.circle_con {
+    box-shadow: 1px 2px 10px 1px black;
+        top: 18%;
+        left: 5em;
+        border: 5px solid var(--cafe);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: rgba(166, 165, 122, 0.90);
+        position: absolute;
+        height: 31em;
+        width: 31em;
+        border-radius: 50%;
+        z-index: 3;
+}
 .con_bg {
-height: 100%;
-width: 100%;
-background: url(purple-3102305_1920.jpg);
+    background: var(--blue);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(purple-3102305_1920.jpg);
+    height: 100%;
+    width: 100%;
 }
 
 .con_1 {
 position: relative;
-top: .5em;
+top: -1em;
+font-size: 3em;
 }
+.p_3 {
+    position: relative;    
+    top: -1em;
+    }
 .con_form {
 position: absolute;
 display: flex;
 justify-content: center;
 align-content: center;
 top: 12em;
-left: 70em;
+left: 100em;
+height: 50em;
+width: 30em;
 background: rgba(134, 43, 144, .65);
-height: 30em;
-width: 20em;
 border-radius: 5%;
 }
 .con_header {
-position: relatives;
+position: relative;
 margin-bottom: 1em;
 margin-left: 1.2em;
 color: var(--blue);
+font-size: 2em;
 }
 .form_info {
 position: relative;
