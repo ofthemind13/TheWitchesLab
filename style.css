@@ -324,6 +324,11 @@
             color: var(--plum);
             font-size: 2em;
             }
+            .soon {
+                color: white;
+                top: 25%;
+                left: 30%;
+            }
 }
 
 @media screen and (min-width:930px) {
@@ -440,8 +445,8 @@
         justify-content: center;
         background-color: rgba(166, 165, 122, 0.90);
         position: absolute;
-        height: 31em;
-        width: 31em;
+        height: 50em;
+        width: 50em;
         border-radius: 50%;
         z-index: 3;
     }
@@ -453,18 +458,19 @@
     }
     .tarot {
         height: 90%;
-        width: 80%;
+        width: 100%;
     }
     .about_h1 {
-        top: -20%;
+        top: -25%;
         text-shadow: 1px 2px black;
         letter-spacing: .05em;
+        font-size: 5em;
     }
     .p2 {
-        width: 25em;
-        top: -15%;
+        width: 27em;
+        top: -18%;
         font-family: 'Playfair Display', serif;
-        font-size: 1em;
+        font-size: 1.5em;
         text-align: center;
         letter-spacing: .05em;
     }
@@ -544,20 +550,21 @@ position: relative;
 margin-bottom: 1em;
 margin-left: 1.2em;
 color: var(--blue);
-font-size: 2em;
+font-size: 3em;
 }
 .form_info {
 position: relative;
 margin-top: 2em;
 margin-left: 3em;
 height: 10%;
-width: 100%;
+width: 90%;
 
 }
 .inputs {
 margin-top: 1em;
 }
 input {
+    font-size: 2em;
 color: white;
 margin-bottom: 5em;
 border: none;
@@ -565,24 +572,23 @@ outline: none;
 background: transparent;
 border-bottom: 2px solid white;
 }
-.name {
+.name, .email, .text {
+    font-size: 2em;
+margin-bottom: 2em;
+}
 
-margin-bottom: 2em;
-}
-.email {
-margin-bottom: 2em;
-}
-.text {
-margin-bottom: 2em;
-}
 .con_data {
 margin-top: 3em;
 }
+.city, .mail, .tel {
+    font-size: 1.5em;
+}
 
 h6 {
-top: 6em;
+position: relative;
+font-size: 4em;
+top: 1em;
 margin-top: 3em;
-font-size: 1em;
 align-self: center;
 justify-self: center;
 color: white;
@@ -595,8 +601,8 @@ align-items: center;
 position: absolute;
 right: 8em;
 top: 35em;
-height: 8em;
-width: 8em;
+height: 13em;
+width: 13em;
 background: rgba(166, 165, 122, 0.90);
 z-index: 2;
 border-radius: 50%;
@@ -605,6 +611,8 @@ border: 3px solid var(--cafe);
 .icons {
 color: var(--red);
 position: relative;
+font-size: 2em;
+
 }
 .line2 {
 
@@ -632,22 +640,17 @@ transform: scaleY(-1);
 }
 .button3 {
 position: relative;
-top: 2em;
-left: -1em;
+top: 0em;
+left: 6em;
 background: transparent;
 border: none;
 font-family: 'Dancing Script', cursive;
-color: var(--gray);
-font-size: 2em;
+color: white;
+font-size: 3em;
 }
-.shop_bg {
-background: var(--gray);
-height: 100vh;
-width: 100vw;
-}
-.shop_prompt {
-margin-top: 5em;
-font-size: 1em;
-color: wheat;
+.soon {
+    color: white;
+    top: 50%;
+    left: 45%;
 }
 }
