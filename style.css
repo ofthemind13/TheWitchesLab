@@ -21,7 +21,7 @@
             }
             body {
                 background: black;
-                height: 100vh;
+                height: 120vh;
                 width: 100vw;
             }
             header {
@@ -226,7 +226,7 @@
             left: 2.9em;
             background: rgba(134, 43, 144, .80);
             height: 30em;
-            width: 20em;
+            width: 15em;
             border-radius: 5%;
             }
             .con_header {
@@ -317,7 +317,7 @@
             .button3 {
             position: relative;
             top: 2em;
-            left: -1em;
+            left: -2em;
             background: transparent;
             border: none;
             font-family: 'Dancing Script', cursive;
@@ -538,10 +538,10 @@ position: absolute;
 display: flex;
 justify-content: center;
 align-content: center;
-top: 12em;
-left: 100em;
-height: 50em;
-width: 30em;
+top: 9em;
+left: 60em;
+height: 35em;
+width: 25em;
 background: rgba(134, 43, 144, .65);
 border-radius: 5%;
 }
@@ -550,7 +550,7 @@ position: relative;
 margin-bottom: 1em;
 margin-left: 1.2em;
 color: var(--blue);
-font-size: 3em;
+font-size: 2.5em;
 }
 .form_info {
 position: relative;
@@ -564,7 +564,7 @@ width: 90%;
 margin-top: 1em;
 }
 input {
-    font-size: 2em;
+font-size: 1em;
 color: white;
 margin-bottom: 5em;
 border: none;
@@ -573,12 +573,13 @@ background: transparent;
 border-bottom: 2px solid white;
 }
 .name, .email, .text {
-    font-size: 2em;
+    font-size: 1em;
 margin-bottom: 2em;
 }
 
 .con_data {
 margin-top: 3em;
+font-size: 1em;
 }
 .city, .mail, .tel {
     font-size: 1.5em;
@@ -601,8 +602,8 @@ align-items: center;
 position: absolute;
 right: 8em;
 top: 35em;
-height: 13em;
-width: 13em;
+height: 10em;
+width: 10em;
 background: rgba(166, 165, 122, 0.90);
 z-index: 2;
 border-radius: 50%;
