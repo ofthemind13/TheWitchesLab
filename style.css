@@ -336,7 +336,7 @@
 
 }
 
-@media screen and (min-width:930px) {
+@media screen and (min-width:930px)  {
     * {
         padding: 0;
         margin: 0;
